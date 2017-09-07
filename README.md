@@ -3,17 +3,19 @@ This project allows the import of issues from a CSV file into your gitlab instan
 It as been created for the need of a one shoot import, it is not usable as this for your need,
 but it should be simple enough to made some change to feet your needs.
 
-** Requirement **
+## Requirement
 
 * NodeJS
 * Your gitlab instance and info
 
 
-** Run **
+## Run
 
+```js
 npm install fast-csv randomcolor
-
+```
 Copy your csv file into the same directory
+
 Edit importIssues.js and change your gitlab host, your personal gitlab key, your project name and your csv filename :
 ```js
 //Your gitlab host
