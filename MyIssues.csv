@@ -1,0 +1,18 @@
+Number;Summary;Priority;Status;Found by;Description;Level;Project Assigned To;System
+1500;[Core][Export][GUI]inform user when export is empty;Low;Open, not assigned;Dupond, Jean;"using my function, when 0 visit to export,
+ 
+ 
+there is no info in GUI to help user:
+ 
+no button, no info to say why export is not generated";CR;MYApp Core Further Version;MyApp
+1924;[BC][Internal] Improve cancel test management;Medium;Open, not assigned;Dupont, Jean;"• A specific flag + user comment  will be send from App1 to MyApp at the result level.
+• In MyApp view canceled analysis will be displayed with a specific icon either in Completed or Pending results. By clicking on this icon, the user will see that the report was canceled + the user's comment (last comment, no history).
+• In MyApp Dashboard, everywhere where info are displayed (in progress time, Pos or Final time, Orphan, Anonymous, …) the icon will be there and by clicking on this icon, the user will see that the report was canceled + the user's comment (last comment, no history).
+• Export data for audit purpose, these info will be exported with the correct flag.
+• DWH : Those analysis are not taken in account for the first reports 
+• MyApp will not have specific feature to search for those cancel infos.";CR;MYApp Core Further Version;MyApp DWH
+1935;[I] Backup / restore of MyApp;Medium;Open;Durand, Philippe;"When you want to restore a system from the official master DVD MyApp 2.0, you must switch to normal mode before restore sofware backup (and after the restore of the Ghost)
+ 
+I should be intresting that backup for this mode include this specificity";CR;MYAPP R4 I;Myapp
+2110;[DWH BI][Reports] Add a new report rule for all report concerning susceptibility reports;Medium;Open, not assigned;Jardin, Remi;"A new report rule or criteria shall allow the user to take in account or not reports concerning certains results.
+ ";CR;MYAPP DWH Further Version;MyApp DWH
